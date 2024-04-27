@@ -71,5 +71,5 @@ The following Admin/User have been pre-generated and can be used to login to the
 
 {"username": "Admin4", "password": "testpassword456"}
 
-You can also register a new Admin  by executing a POST request with body {username, password} to {REACT_APP_API_URL}/api/auth/register
+You can also register a new Admin  by executing a POST request with body {username, password} to {REACT_APP_API_URL}/api/auth/register or, in case of the deployed version, to https://helpdesk088.onrender.com/api/auth/register
 
