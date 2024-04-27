@@ -50,7 +50,7 @@ After renaming the aforementioned .env file, assign a value to the SECRET_KEY va
 
 The frontend interacts with the backend server through the wrapper class API located in client/src/helpers/api.js
 
-Rename the second .env-example file located in the client directory to.env and define the base application URL to the variable REACT_APP_API_URL 
+Rename the second .env-example file located in the client directory to .env and define the base application URL to the variable REACT_APP_API_URL 
 
 ### Setting it live locally
 
