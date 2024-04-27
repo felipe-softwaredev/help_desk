@@ -41,17 +41,7 @@ $ node run client
 
 This application was developed using PostgreSQL database. To connect to the database, you'll need to create a [Sequelize](https://sequelize.org/docs/v6/getting-started/) instance. This can be achieved by renaming the .env-example file in the server directory to.env. Provide the connection parameters within each variable of the .env file. The config.js file, located in server/config, will read these variables and construct the Sequelize URI for you.
 
-Database variables:
-
-POSTGRES_URL
- (`<br>`)
-POSTGRES_USER
- (`<br>`)
-POSTGRES_HOST
- (`<br>`)
-POSTGRES_PASSWORD
- (`<br>`)
-POSTGRES_DATABASE
+Database variables: POSTGRES_URL; POSTGRES_USER; POSTGRES_HOST; POSTGRES_PASSWORD; POSTGRES_DATABASE
 
 ### JWT Secret Key
 
