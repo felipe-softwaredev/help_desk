@@ -30,7 +30,7 @@ This application was developed with the support of the following tools:
 
 ### Package installation
 
-To install all the packages on both the frontend and backend, run:
+In the server directory, run:
 
 ```shell
 $ node run client
