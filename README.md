@@ -11,7 +11,7 @@
 
 ## Description
 
-### Tech Stack Help Desk Application
+### Help Desk Application
 - Streamlines support ticket submission, management, and resolution.
 - Admin Ticket Management with assignment capability.
 - Seamless communication between users and admins.
