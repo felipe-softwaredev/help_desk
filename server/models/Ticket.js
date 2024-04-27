@@ -15,6 +15,7 @@ const Ticket = sequelize.define('ticket', {
   email: {
     type: DataTypes.STRING,
     allowNull: false,
+    valide: { isEmail: true },
   },
   query: {
     type: DataTypes.STRING,
