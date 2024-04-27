@@ -6,7 +6,7 @@
   - [Description](#description)
   - [Tech Stack](#tech-stack)
   - [Installation](#installation)
-  - [Testing](#admin-login/register)
+  - [Login](#admin-login/register)
 
 
 ## Description
