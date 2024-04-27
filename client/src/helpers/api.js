@@ -14,7 +14,7 @@ class API {
   }
 
   static async getAll(endpoint, params) {
-    const response = await axios.get(`${this.BASE_URL}/admin/${endpoint}`, {
+    const response = await axios.get(`${this.BASE_URL}/api/admin/${endpoint}`, {
       params,
     });
     return response;
