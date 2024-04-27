@@ -6,7 +6,10 @@ class API {
   static BASE_URL = process.env.REACT_APP_API_URL;
 
   static async login(reqBody) {
-    const response = await axios.post(`${this.BASE_URL}/auth/login`, reqBody);
+    const response = await axios.post(
+      `${this.BASE_URL}/api/auth/login`,
+      reqBody
+    );
     return response;
   }
 
@@ -19,7 +22,7 @@ class API {
 
   static async getOne(endpoint, param, reqbody = {}) {
     const response = await axios.get(
-      `${this.BASE_URL}/admin/${endpoint}/${param}`,
+      `${this.BASE_URL}/api/admin/${endpoint}/${param}`,
       reqbody
     );
     return response;
@@ -27,7 +30,7 @@ class API {
 
   static async create(endpoint, reqBody) {
     const response = await axios.post(
-      `${this.BASE_URL}/admin/${endpoint}`,
+      `${this.BASE_URL}/api/admin/${endpoint}`,
       reqBody
     );
     return response;
@@ -35,14 +38,14 @@ class API {
 
   static async update(endpoint, reqBody) {
     const response = await axios.patch(
-      `${this.BASE_URL}/admin/${endpoint}/`,
+      `${this.BASE_URL}/api/admin/${endpoint}/`,
       reqBody
     );
     return response;
   }
   static async delete(endpoint, param = '', data = {}) {
     const response = await axios.delete(
-      `${this.BASE_URL}admin/${endpoint}/${param}`,
+      `${this.BASE_URL}/api/admin/${endpoint}/${param}`,
       { data }
     );
     return response;
