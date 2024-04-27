@@ -12,8 +12,7 @@
 ## Description
 
 ### Tech Stack Help Desk Application
--  Streamlines support ticket submission, management, and resolution.
-- User Ticket Submission with file attachment.
+- Streamlines support ticket submission, management, and resolution.
 - Admin Ticket Management with assignment capability.
 - Seamless communication between users and admins.
 - Ticket tracking from submission to resolution.
