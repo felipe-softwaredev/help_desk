@@ -32,7 +32,7 @@ This application was developed with the support of the following tools:
 In the server directory, run:
 
 ```shell
-$ node run client
+$ npm run client
 ```
 
 ### Database
