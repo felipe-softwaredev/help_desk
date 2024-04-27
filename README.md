@@ -6,10 +6,8 @@
   - [Description](#description)
   - [Tech Stack](#tech-stack)
   - [Installation](#installation)
-  - [Testing](#testing)
-  - [Game API Class](#game-api-class)
-  - [Endpoints](#endpoints)
-  - [Credits](#credits)
+  - [Testing](#admin-login/register)
+
 
 ## Description
 
@@ -73,7 +71,7 @@ After package installation and database connection, to set the application live,
 $ npm start
 ```
 
-### Admin login
+## Admin login/register
 
 The following Admin/User have been pre-generated and can be used to login to the application as an Admin:
 
